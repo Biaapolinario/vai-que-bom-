@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+
+#titulo {
+   text-align: start;
+  font-family: "Story Script", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+   
+}
+
+header {
+    background: linear-gradient(to right, #1e3c72, #1f192f);
+    padding: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+      height: 30px;
+}
+ 
+
+.meu-botao {
+    background-color:#b5e8c3;
+    color: #2d6073;
+    border: 2px solid #65b8a6;
+    padding: 8px 18px;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, opacity 0.3s;
+}
+
+.roda{
+    background-color: #65b8a6;
+    border-color: #65b8a6;
+    border-radius: 15px;
+    
+
+}
+
+#light {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;         /* ou o tamanho desejado */
+    height: 45px;
+    padding: 0;
+}
+
+#light i {
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 16px; /* ajuste conforme o tamanho desejado */
+    line-height: 1;
+}
+
+.meu-botao:hover {
+    opacity: 0.8;    
+}
+
+.log {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* NAV DO TEXTO */
+.nav {
+    display: flex;
+    flex-direction: column;
+    background-color:  #f0f7da;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px; 
+    width: 100%;
+   
+
+}
+
+.nav-img{
+    flex-direction: column;
+}
+
+
+.titulo{
+    margin-top: 60px;
+    line-height: 75px;
+    margin-bottom: 30px;
+}
+
+.text {
+    padding: 0px 60px 40px 120px;  /* top, right, bottom, left */
+    max-width: 880px;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+}
+
+.t {
+    color: #003049;
+    font-family: 'Georgia', serif;
+    font-size: 66px;
+    font-weight: bold;
+  
+}
+
+span {
+    font-size: 22px;
+    line-height: 1.6;
+   
+}
+.IMG{
+      margin-top: 75PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span{
+    max-width: 650px;
+    text-align: justify;
+}
+ /*///////////////////////////////////////////////////*/
+section{
+    background-color:#65b8a6;
+}
+
+.ima{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.imagens{
+    border-radius: 15px;
+}
+
+ .dir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:380px;
+    
+ }
+
+.tema{
+    display: flex;
+}
+.texto{
+    
+    width: 900px;
+    height: 250px;
+    justify-content: left; 
+    margin-left: 80px;
+    
+  
+}
+ p{
+    text-align: justify;
+    font-size: 20px;
+ }
+ 
+.destino{
+    font-size: 80px;
+   padding: 60px;
+}
+
+ h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   padding: 10px;
+ }
+
+ .line{
+    width: 80%;
+    border-radius: 10px;
+    border: #2e6072 2px solid;
+    margin-left: 8%;
+}
+
+.ex{
+    font-size: 45px;
+    margin-left: 80px;
+    justify-content: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ .canto{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 25px;
+ }
+ .base{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+ }
+ .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 25px;
+    font-size: 18px;
+ }
+
+
+ .org
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 130px;
+    margin-top: 120px;
+}
+
+/*//////////////////////////////////////////////////*/
+
+
+#dado{
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+footer{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #003049;
+    padding: 20px;
+}
+
+.bia{
+    color: rgb(253, 253, 253);
+    line-height: 20px;
+    flex-direction: column;
+    font-size: 18px;
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+}

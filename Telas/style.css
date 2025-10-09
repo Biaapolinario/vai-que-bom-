@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f5f7e5;
+}
+
+/* ========== SIDEBAR ========== */
+.sidebar {
+    width: 200px;
+    background-color: #0f3b52;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px; /* joga tudo pro topo */
+}
+
+/* Logo ajustada */
+.logo-img {
+    width: 120px;  /* tamanho da logo */
+    height: auto;  /* mantém proporção */
+    margin-bottom: 20px;
+}
+
+.sidebar nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar nav a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.sidebar nav a:hover {
+    background-color: #1e5d7b;
+}
+
+.sidebar .icon {
+    margin-right: 10px;
+}
+
+/* ========== CONTEÚDO PRINCIPAL ========== */
+.main-content {
+    flex: 1;
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #002d3c;
+}
+
+header p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* ========== CARDS ========== */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: #79b3a6;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-image {
+    background-color: #5e998d;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.card p {
+    font-size: 14px;
+    color: #000;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 360px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.box > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.todoslugares{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9fff0;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: #003548;
+  color: white;
+  position: fixed;
+  padding: 20px 10px;
+}
+
+.sidebar .logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.sidebar nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.sidebar nav a .icon {
+  margin-right: 10px;
+}
+
+.main-content {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.profile {
+  margin-left: 20px;
+}
+
+.verified {
+  color: black;
+}
+
+.meus-lugares {
+  margin-top: 30px;
+}
+
+.meus-lugares h2 {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.lugares-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.lugar {
+  width: 150px;
+  background-color: #77cbb9;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 100px;
+  background-color: #5fb3a1;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.adicionar-lugar a {
+  display: inline-block;
+  font-size: 18px;
+  color: #3bb3a1;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.adicionar-lugar .plus {
+  font-size: 30px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
