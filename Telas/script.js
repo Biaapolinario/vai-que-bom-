@@ -1,7 +1,13 @@
+const ip = '192.168.1.27'
+
 async function carregarLugares() {
   try {
+    const queryString = window.location.search
+    const urlParams = new URLSearchParams(queryString);
+    const cidade = urlParams.get('cidade')
+
     // Faz a requisição para a API
-    const response = await fetch('http://192.168.1.5:3000/locais'); 
+    const response = await fetch(`http://${ip}:3000/cidades/${cidade}`); 
     if (!response.ok) {
     return('Erro ao buscar os lugares');
     }
